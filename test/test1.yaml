@@ -1,0 +1,40 @@
+transactions:
+  - date: 2023-06-01
+    description: Salary deposit
+    postings:
+      - account: Assets:Checking
+        amount: 5000.00
+      - account: Income:Salary
+        amount: -5000.00
+
+  - date: 2023-06-02
+    description: Rent payment
+    postings:
+      - account: Expenses:Rent
+        amount: 1500.00
+      - account: Assets:Checking
+        amount: -1500.00
+
+  - date: 2023-06-03
+    description: Grocery shopping
+    postings:
+      - account: Expenses:Food:Groceries
+        amount: 75.50
+      - account: Assets:Checking
+        amount: -75.50
+
+  - date: 2023-06-04
+    description: Online purchase in JPY
+    postings:
+      - account: Expenses:Shopping
+        amount: JPY 5000
+      - account: Assets:CreditCard
+        amount: JPY -5000
+
+  - date: 2023-06-05
+    description: Transfer to savings
+    postings:
+      - account: Assets:Savings
+        amount: 1000.00
+      - account: Assets:Checking
+        amount: -1000.00
